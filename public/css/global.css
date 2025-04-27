@@ -1,0 +1,50 @@
+/* Southwest Resume Services - Global Styles */
+:root {
+    --primary-blue: #1A365D;
+    --secondary-blue: #2B6CB0;
+    --accent-gold: #D69E2E;
+    --text-gray: #6E6E6E;
+    --light-gray: #F7FAFC;
+    --white: #FFFFFF;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-gray);
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-blue);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .cta-button {
+    background: var(--secondary-blue);
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: var(--primary-blue);
+  }
